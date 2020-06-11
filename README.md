@@ -19,6 +19,6 @@ The most salient feature of v3 is that **it makes detections at three different 
 * A similar procedure is followed again, where the feature map from layer 91 is subjected to few convolutional layers before being depth concatenated with a feature map from layer 36. Like before, a few 1 x 1 convolutional layers follow to fuse the information from the previous layer (36). 
 * We make the final of the 3 at 106th layer, yielding feature map of size 52 x 52 x 255.
 
-Just follow along the Jupyter Notebook provided, and you can easily download the yolov3.weights from [here](https://pjreddie.com/media/files/yolov3.weights)
+Just follow along the [Jupyter Notebook](https://github.com/abhisheknr0411/YOLOv3-Keras-Implementation/blob/master/KerasYolo_trial_1.ipynb) provided. Also, you can easily download the yolov3.weights from [here](https://pjreddie.com/media/files/yolov3.weights)
 
-Hope you enjoy detecting objects with this easy and one of the fastest architecture for object detection.
+**Hope you enjoy detecting objects with this easy and one of the fastest architecture for object detection.**
